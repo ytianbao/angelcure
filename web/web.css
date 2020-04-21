@@ -1,0 +1,172 @@
+*{
+    font-family:微软雅黑;
+}
+a{
+    color:black;
+}
+h2{
+    font-weight:bold;
+}
+.container-fluid{
+    overflow:hidden;
+}
+#mainul{
+    padding:0;
+}
+#header-logo{
+    height:1.8em;
+    width:1.4em;
+}
+#header-text{
+    font-size:1.3em;
+    vertical-align: top;
+}
+.nav-item{
+    font-size:1.0em;
+    vertical-align:top;
+    padding:5px 20px;
+}
+#item-first{
+    margin-left:200px;
+}
+#header-login{
+    position: absolute;
+    right:0;
+}
+#main{
+    background: url("/resources/main/banner.png") no-repeat;
+    background-size:100% 750px;
+}
+
+#main-info{
+    color:white;
+    margin-top:150px;
+    text-align:center;
+}
+
+.left{
+    float:left;
+    text-align:center;
+    width:50%;
+}
+.right{
+    float:right;
+    text-align:center;
+    width:50%;
+}
+.show-img{
+    height:800px;
+    width:400px;
+}
+.show-icon{
+    margin-top:310px;
+    height:80px;
+    width:80px;
+}
+.show-first{
+    margin-top:25px;
+}
+.qrcode{
+    width:160px;
+    height:160px;
+}
+.choosed{
+    color:rgb(53,145,224);
+    border-bottom: 5px solid;
+}
+
+.img1{
+    margin-top:155px;
+}
+.img2{
+    margin-top:138px;
+}
+.img3{
+    margin-top:125px;
+}
+.img4{
+    margin-top:128px;
+}
+.img5{
+    margin-top:128px;
+}
+.img6{
+    margin-top:128px;
+}
+
+#our-info{
+    background: linear-gradient(to bottom,rgb(195,220,240),lightblue,aqua,white);
+    background-size:100% 750px;
+    text-align: center;
+}
+.out-info-item{
+    margin-top:20px;
+}
+.our-head{
+    height:65px;
+    width:65px;
+    border-radius: 5px;
+}
+.copy{
+    height:44px;
+    background-color:rgb(242,242,242);
+}
+.copy-item{
+    padding:10px 20px;
+    float:right;
+    background-color:rgb(242,242,242);
+}
+#mobile-main{
+    display:none;
+}
+@media screen and (max-width:1000px){
+    #item-first{
+        margin-left:100px;
+    }
+
+    #pc-nav,#main{
+        display:none;
+    }
+
+    #mobile-main{
+        display:block;
+        text-align:center;
+        height:860px;
+        background:radial-gradient(circle at 50% 55px,royalblue,rgb(195,220,240),aqua,white);
+    }
+
+    .left,.right{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+
+    .show-panel{
+        height:900px;
+        text-align:center;
+        width:100%;
+    }
+
+    .show-icon{
+        margin-top:30px;
+        margin-bottom:-15px;
+        width:60px;
+        height:60px;
+    }
+
+    .show-img{
+        margin-top:20px;
+        height:600px;
+        width:300px;
+    }
+    #copylisen{
+        width:100%;
+        text-align:right;
+    }
+}
+
+@media screen and (max-width:800px){
+    #item-first{
+        margin-left:0;
+    }
+}

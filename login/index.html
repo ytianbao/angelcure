@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>天使医疗-登录</title>
+        <link rel="SHORTCUT ICON" href="../resources/icon/favicon.ico">
+        <link rel="stylesheet" href="login.css">
+        <script src="login.js"></script>
+    </head>
+    <body id="login">
+        <div id="login-window">
+            <div class="inner">
+                <div style="font-size:20px;font-weight:bold;padding-bottom: 10px;">
+                     <img src = "../resources/logo/logo.png" style="height:30px;width:24px;vertical-align: bottom;" alt="" width:30%>&nbsp;天使医疗</div>
+                <div id="to-rotate" style="display:inline-block;">
+                <div class="return-account"> <img src="resource/icon/arrow_left.svg" alt="" onclick="toAccount()" class="left-arrow">
+                    <div class="user-account"></div>
+                </div>
+                <form onSubmit="toPassword();return false">
+                    <div class="heading">登录</div>
+                    <input type="text" class="login-text" placeholder="账号/手机号" name="account">
+                    <input type="password" class="login-password" name="password">
+                    <p class="alert-error"></p>
+                    <div class="tips">没有账户?&nbsp;<a href="/register/">创建一个!</a></div>
+                    <input type="submit" value="下一步" class="next">
+                </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </body>
+</html>
